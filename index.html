@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Drive Deck - Virtual Reality rijlessen</title>
+  <link rel="shortcut icon" type="image/png" href="https://drivedeck.liam.dombret.nxtmediatech.eu/favicon.png" />
+  <meta charset="utf-8" />
+  <meta description="DriveDeck - Ervaar een unieke, exclusieve en vermakende manier om te leren rijden.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/reset.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/mobile.css" />
+  <link rel="stylesheet" href="style/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Saira:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="nav">
+    <div class="wrapper">
+      <a href="#video"><img id="logosmall" src="images/LogoText.svg" alt="Drive Deck Logo"></a>
+      <ul>
+        <div id="float">
+          <li><a href="#promovid">Video</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <div id="hero">
+    <div id="overlay">
+      <div id="overlaywrapper">
+        <div id="overlaylogo">
+        </div>
+        <div id="overlaycard">
+          <h1>Experience<br><span class="white">DriveDeck<span></h1>
+            <p>Voel jij je soms onzeker op de baan? Heb je moeite met traditionele rijscholen? Zou je graag op je eigen tempo kunnen oefenen? Dat kan met de nieuwe technologie van DriveDeck. Interesse? Bekijk onze video of neem contact op!</p>
+          </div>
+          <button class="videobutton" id="desktopbutton" onclick="playVideo();">Watch Video</button>
+          <button class="videobutton" id="mobilebutton" onclick="playMobile();">Watch Video</button>
+          <button class="videobutton" id="pausebutton" onclick="pauseVideo();">Pause Video</button>
+        </div>
+      </div>
+    </div>
+    <video id="promovid" alt="Drive Deck Promo Video">
+    </video>
+    <div class="section" id="about">
+      <div class="wrapper">
+        <h1>About<br><span class=white>us</span></h1>
+        <hr>
+        <p>DriveDeck is een nieuwe start-up die als doel heeft zo veel mogelijk mensen de kans te geven hun rijbewijs te halen. Wij bieden een gloednieuwe ervaring aan in de vorm van een Virtual Reality omgeving waar je zonder stress op allerlei soorten verkeerssituaties kan oefenen, allemaal op je eigen tempo.</p>
+      </div>
+    </div>
+    <div class="section" id="product">
+      <div class="wrapper">
+        <h1>The<br><span class=white>Product</span></h1>
+        <hr>
+        <div class="productbox">
+          <div class="productimage" id="vr" alt="VR">
+          </div>
+          <div class="producttext">
+            <h2>Realistische VR rijlessen</h2>
+            <p>Met onze gloednieuwe engine gemaakt in Unity bieden wij een hyperrealistische omgeving aan waardoor niet enkel leren een prioriteit is voor ons, maar ook de esthetiek.<br><br>Daarnaast bieden we ook een volledig realistische AI aan waardoor dat het lijkt alsof je écht op de baan bent, zonder al de gevaren vandien.</p>
+          </div>
+        </div>
+        <div class="productbox alternate">
+          <div class="productimage" alt="verkeer">
+          </div>
+          <div class="producttext alternate">
+            <h2>Oefen op zeldzame verkeerssituaties</h2>
+            <p>Honderden unieke verkeerssituaties waarop de rijschool je nooit zal voorbereiden wachten op jou. <br><br>Bovendien bevat ons programma ook een standaard rijlessen pakket, waardoor je ook vlot de basics onder de knie kan krijgen.</p>
+          </div>
+        </div>
+        <div class="productbox">
+          <div class="productimage" id="levels" alt="levels">
+          </div>
+          <div class="producttext">
+            <h2>Alles op jouw tempo</h2>
+            <p>Dankzij de zelfstandige manier van werken kies je natuurlijk zelf hoe snel je vooruitgaat, en waarmee je begint. Je kan kiezen om een standaardtraject te volgen, of om je eigen rijlessen te structuren. <br><br>Er staat helemaal geen druk op je schouders, en het is allemaal 100% veilig.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="icons">
+      <div class="wrapper">
+        <div class="iconbox">
+          <img class="icon" src="images/house.svg" alt="House Icon">
+          <h2>100% risicovrij</h2>
+        </div>
+        <div class="iconbox">
+          <img class="icon" src="images/vr.svg" alt="VR Icon">
+          <h2>Uniek technologische ervaring</h2>
+        </div>
+        <div class="iconbox" id="first">
+          <img class="icon" src="images/checklist.svg" alt="Checklist Icon">
+          <h2>Perfecte voorbereiding</h2>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="contact">
+      <div class="wrapper">
+        <h1>Get in<br><span class=white>touch</span></h1>
+        <hr>
+        <p>Wil je ons product uitproberen of moet je iets kwijt? Laat ons gerust iets weten via het onderstaande formulier. Volg ons ook zeker op onze social media pages voor nieuwe updates!</p>
+        <div id="socialmedia">
+          <a href="tel:+32475551195"><div id="phone" class="icon social" alt="Instagram">
+          </div></a>
+          <p>+32 475 55 11 95</p>
+          <a href="https://www.instagram.com/drivedeck/" target="_blank"><div id="instagram" class="icon social" alt="Instagram">
+          </div></a>
+          <a href="https://www.facebook.com/drivedeck-107538370917365/" target="_blank"><div id="facebook" class="icon social" alt="Facebook">
+          </div></a>
+          <a id="kdglink" href="https://www.kdg.be/" target="_blank"><div id="kdg" class="icon social" alt="Karel de Grote">
+          </div></a>
+        </div>
+        <div id="contactbox">
+          <form class="contact-form" action="contactform.php" method="post">
+            <input type="text" name="name" placeholder="Naam">
+            <input type="text" name="email" placeholder="E-Mail">
+            <textarea type="text" name="message" placeholder="Uw bericht"></textarea>
+            <br><button type="submit" name="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <div id="footerlogo">
+        </div>
+        <div class="footerbox">
+          <h3>Sitemap</h3>
+          <ul>
+            <a href="#promovid"><li>Video</li></a>
+            <a href="#product"><li>Product</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </ul>
+        </div>
+        <div class="footerbox">
+          <h3>Links</h3>
+          <ul>
+            <a href="https://www.instagram.com/drivedeck/"><li>Instagram</li></a>
+            <a href="https://www.facebook.com/drivedeck-107538370917365/"><li>Facebook</li></a>
+            <a href="https://www.kdg.be/"><li>KdG</li></a>
+          </ul>
+        </div>
+        <div class="footerbox" id="contactbox2">
+          <div id="contactwrap">
+            <h3>Get updates</h3>
+            <form name="signup" action="signup.php" method="post" id="signup">
+              <input type="text" name="mail" placeholder="Uw e-mail">
+              <button type="submit" name="submit">Confirm</button>
+            </form>
+          </div>
+          <div id="contactrights"><p>© 2020 DriveDeck. All rights reserved.</p></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
+  </html>
